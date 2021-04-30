@@ -1,0 +1,21 @@
+package Lesson_3_Homework;
+
+public class InstructorManager
+{
+	public void getAll(Instructor instructor)
+	{
+		System.out.println(instructor.getfirstName()+" Hoca Getirildi.");
+	}
+	public void login(Instructor instructor)
+	{
+		System.out.println("Hoşgeldin "+instructor.getfirstName()+".");
+	}
+	public void register(Instructor instructor)
+	{
+		System.out.println(instructor.getfirstName()+" Hoca Sisteme Başarıyla Kaydedildi.");
+	}
+	public void exit(Instructor instructor)
+	{
+		System.out.println("İyi Günler "+instructor.getfirstName()+".");
+	}
+}

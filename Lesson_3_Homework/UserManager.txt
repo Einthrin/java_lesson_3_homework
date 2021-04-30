@@ -1,0 +1,39 @@
+package Lesson_3_Homework;
+
+public class UserManager
+{
+	public void add(User user) {
+		System.out.println("Kullanıcı Eklendi.");
+	}
+
+public void addMultiple(User[] user)
+{
+	System.out.println("Kullanıcı Eklendi.");
+}
+
+public void delete(User user)
+{
+	System.out.println("Kullanıcı Silindi.");
+}
+public void deleteMultiple(User[] user)
+{
+	System.out.println("Kullanıcı Silindi.");
+}
+public void update(User user)
+{
+	System.out.println("Kullanıcı Güncellendi.");
+}
+public void updateMultiple(User[] user)
+{
+	System.out.println("Kullanıcı Güncellendi.");
+}
+
+public void  getAll(User user)
+{
+	System.out.println("Kullanıcı Listelendi.");
+}
+public void getAllMultiple(User[] user)
+{
+	System.out.println("Kullanıcı Listelendi");
+}
+}

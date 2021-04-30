@@ -1,0 +1,24 @@
+package Lesson_3_Homework;
+
+public class Instructor extends User
+{
+	public String numberOfStudents;
+	
+	public Instructor(int id, String firstName, String lastName, String number, String email, String password, String numberOfStudents)
+	{
+		this.id = id;
+	}
+	
+	public Instructor(String numberOfStudents)
+	{
+		super();
+		this.numberOfStudents = numberOfStudents;
+	}
+	
+	public String getNumberOfStudents() {
+		return numberOfStudents;
+	}
+	public void setNumberOfStudents(String numberOfStudents) {
+		this.numberOfStudents = numberOfStudents;
+	}
+}

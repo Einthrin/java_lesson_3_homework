@@ -1,0 +1,21 @@
+package Lesson_3_Homework;
+
+public class StudentManager
+{
+	public void getAll(Student student)
+	{
+		System.out.println(student.getfirstName()+" Öğrencisi Getirildi.");
+	}
+	public void register(Student student)
+	{
+		System.out.println(student.getfirstName()+" Öğrencisinin Kaydı Başarılı.");
+	}
+	public void login(Student student)
+	{
+		System.out.println(student.getfirstName()+" Öğrencisinin Girişi Başarılı.");
+	}
+	public void exit(Student student)
+	{
+		System.out.println(student.getfirstName()+" Öğrencisinin Çıkışı Başarılı.");
+	}
+}

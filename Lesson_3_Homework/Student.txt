@@ -1,0 +1,25 @@
+package Lesson_3_Homework;
+
+public class Student extends User
+{
+	private String number;
+	
+	public Student()
+	{
+		
+	}
+	
+	public Student(String number)
+	{
+		this();
+		this.number = number;
+	}
+	
+	public String getnumber() {
+		return number;
+	}
+	public void setnumber(String number)
+	{
+		this.number = number;
+	}
+}
